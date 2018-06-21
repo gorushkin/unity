@@ -12,15 +12,25 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /*------------------------------ main-header------------------------------ */
 
 .main-header {
-  min-height: 720px;
-  box-shadow: 0 0 0 3px red;
+  height: 720px;
+  /* box-shadow: 0 0 0 3px red; */
   background-color: black;
-  /* background: url("../img/header-back-dark.png") no-repeat bottom,
-  url("../img/header-back.jpg") no-repeat; */
-  padding-top: 40px;
+  /* background: url("../img/header-back-dark.png") no-repeat bottom ,
+  url("../img/header-back.jpg") no-repeat -16px -104px; */
+  background: url("../img/header-back-dark.png") no-repeat bottom ,
+  url("../img/header-back2.jpg") no-repeat 0 0;
+  overflow: hidden;
+  padding-top: 38px;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -29,14 +39,22 @@ a {
   letter-spacing: 3.6px;
   color: #ffffff;
   margin-left: 468px;
-  margin-bottom: 282px;  
+  margin-bottom: 270px;
+  display: block; 
 }
 
 .main-header .promo-title {
   font-size: 38px;
   line-height: 46px;
-  letter-spacing: 7.6px;
+  letter-spacing: 7.4px;
   color: #ffffff;
+  width: 641px;
+  
+  margin-left: 639px;
+  margin: 0 auto;
+  margin-bottom: 400px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .site-navigation {
@@ -79,7 +97,7 @@ a {
   font-size: 14px;
   color: #000000;
   font-weight: 500;
-  letter-spacing: 1.68px;
+  letter-spacing: 1.68px;  
 }
 
 .contacts {
